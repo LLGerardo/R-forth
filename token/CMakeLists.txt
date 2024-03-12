@@ -1,4 +1,7 @@
 add_executable(
+	main
+	main.c
 	token
 	token.c
-    token.h)
+    unit_test
+	unit_test.c)

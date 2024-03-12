@@ -1,5 +1,3 @@
-#ifndef TOKEN_H
-#define TOKEN_H
 
 // Enum for token types,..,m,
 typedef enum {
@@ -13,6 +11,4 @@ typedef enum {
 typedef struct token_t{
     token_type_t type;
     char *text;
-} token_t;
-
-#endif
+}token_t;

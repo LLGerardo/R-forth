@@ -20,11 +20,11 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_subdirectory(hello)
-add_subdirectory(hello-lib)
-add_subdirectory(lwlog-lib)
-add_subdirectory(lwlog-demo)
-add_subdirectory(gtest-demo)
+# add_subdirectory(hello)
+# add_subdirectory(hello-lib)
+# add_subdirectory(lwlog-lib)
+# add_subdirectory(lwlog-demo)
+# add_subdirectory(gtest-demo)
 add_subdirectory(token)
 
 
